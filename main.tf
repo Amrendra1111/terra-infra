@@ -10,6 +10,6 @@ resource "aws_instance" "example" {
 
   # Add tags to the instance
   tags = {
-    Name = "Terraform Example"
+    Name = "Terra Example"
   }
 }
