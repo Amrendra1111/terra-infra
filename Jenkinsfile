@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout code from GitHub
-                git url: 'https://github.com/amrendra1111/terraform-infra.git', branch: 'main'
+                git credentialsId: 'github-pat', url: 'https://github.com/Amrendra1111/terra-infra.git'
             }
         }
 
